@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+
+<body style="background-color: #c7d4f0;">
+      
+      <div class="container" style="margin-top: 130px;">
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3">
+                <div class="box-login">
+                    <h3 style="color: #fff; margin-top: 0px;">
+                        <div style="background: #414755; padding: 10px; margin-bottom: -10px; background-image: linear-gradient(#312c5e, #5d55a1, #312c5e);">
+                            <img src="Images/FI.png" />
+                            GPS Tracker Admin | Login
+                        </div>
+                    </h3>
+                    <form style="background: #fff; padding: 20px; box-shadow: 5px 5px 20px 2px rgba(56,56,56,0.97)">
+                        <div class="form-group">
+                            <label for="email">
+                                User Name:
+                            </label>
+                            <input type="username" class="form-control" id="txtUsername" maxlength="30" onkeyup="this.value = this.value.toUpperCase();">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">
+                                Password:
+                            </label>
+                            <input type="password" class="form-control" id="txtPassword" maxlength="30">
+                        </div>
+                      
+                        <div class="row">
+                            <div class="col-lg-12 text-center" style="padding-right: 4px;">
+                                <button type="button" class="btn btn-dark" id="btnLogin">
+                                    Submit
+                                </button>&nbsp; &nbsp;
+                                <button type="button" class="btn btn-dark" id="btnClear">
+                                    Clear
+                                </button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="assets/libs/jquery/dist/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="Scripts/Login.js"></script>
+</html>
